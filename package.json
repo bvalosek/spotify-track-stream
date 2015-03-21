@@ -1,0 +1,25 @@
+{
+  "name": "spotify-track-stream",
+  "version": "0.1.0",
+  "description": "Create a readable object stream of a Spotify user's saved tracks",
+  "main": "dist/index.js",
+  "author": {
+    "name": "Brandon Valosek",
+    "email": "bvalosek@gmail.com",
+    "url": "http://bvalosek.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:bvalosek/spotify-track-stream.git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "prepublish": "babel lib --experimental --loose=all --out-dir dist"
+  },
+  "dependencies": {
+    "debug": "^2.1.2"
+  },
+  "devDependencies": {
+    "babel": "^4.7.16"
+  }
+}
