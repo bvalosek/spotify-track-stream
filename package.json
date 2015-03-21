@@ -14,7 +14,7 @@
   },
   "license": "MIT",
   "scripts": {
-    "prepublish": "babel lib --experimental --loose=all --out-dir dist"
+    "prepublish": "babel src --experimental --loose=all --out-dir dist"
   },
   "dependencies": {
     "debug": "^2.1.2"
