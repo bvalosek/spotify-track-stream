@@ -2,7 +2,7 @@
   "name": "spotify-track-stream",
   "version": "0.1.1",
   "description": "Create a readable object stream of a Spotify user's saved tracks",
-  "main": "dist/index.js",
+  "main": "./dist/SpotifyTrackStream.js",
   "author": {
     "name": "Brandon Valosek",
     "email": "bvalosek@gmail.com",
