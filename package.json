@@ -1,6 +1,6 @@
 {
   "name": "spotify-track-stream",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Create a readable object stream of a Spotify user's saved tracks",
   "main": "./dist/SpotifyTrackStream.js",
   "author": {
